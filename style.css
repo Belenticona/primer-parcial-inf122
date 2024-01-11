@@ -1,0 +1,82 @@
+.root{
+    --white: #FFFFFF;
+    --gray:  #808080 ;
+    --black :	#000000;
+    --shadow-graw: #595953 ;
+    --black-russia: #24252b;
+    --blue-ligth: #3e64aa;
+    --yellow:#ffe071;
+}
+
+body{
+   background-color: var(--black);
+   font-family: 'Nunito';
+   margin: 0;
+   border-radius: 20px;
+     background: var(--black);
+}
+.perfil{
+   display: flex;
+width: 631px;
+justify-content: center;
+align-items: center;
+gap: 40px;
+
+}
+.foto{
+   width: 192px;
+height: 192px;
+flex-shrink: 0;
+border-radius: 192px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.title {
+   color: #F1F2F4;
+font-family: Poppins;
+font-size: 46px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sub-title{
+   color: #A3ABB2;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 372px;
+}
+.conteirner  {
+   display: flex;
+width: 634px;
+padding: 20px 2px;
+justify-content: center;
+align-items: center;
+gap: 90px;
+}
+.a{
+   color: #A3ABB2;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+b.{
+color: #A3ABB2;
+text-align: center;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.button{
+   width: 290px;
+   height: 80px;
+   flex-shrink: 0;
+   border-radius: 10px;
+background: #FFE071;    
+
+}
